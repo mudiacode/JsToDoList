@@ -10,11 +10,11 @@ while ((input = prompt("What do you want to do?"))) {
     console.log(input);
     todoList.push(input);
   } else if (input == "list" || input == 'l') {
-    console.log('******************')
+    console.log('-----------------------')
     for (let todo in todoList) {
       console.log(todo + ": " + todoList[todo]);
     }
-    console.log('******************');
+    console.log('-----------------------');
   } else if (input == "delete" || input == 'd') {
     input = prompt('what would you like to delete?');
     //removes an item from the list based on the index value
