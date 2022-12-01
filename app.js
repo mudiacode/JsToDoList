@@ -13,6 +13,7 @@ while ((input = prompt("What do you want to do? \n -------------------------- \n
     console.log('-----------------------')
     for (let todo in todoList) {
       console.log(todo + ": " + todoList[todo]);
+      break;
     }
     console.log('-----------------------');
   } else if (input == "delete" || input == 'd') {
