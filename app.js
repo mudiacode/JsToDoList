@@ -1,7 +1,7 @@
 let todoList = ['todo1', 'todo2', 'todo3'];
 
 
-while ((input = prompt("What do you want to do?"))) {
+while ((input = prompt("What do you want to do? \n -------------------------- \n Commands: \n -------------------------- \n new or n - Add a task\n list or l - List all tasks\n delete or d - Remove specific task\n quit or q - Quit app "))) {
   if (input == "quit") {
     console.log("Bye!");
     break;
